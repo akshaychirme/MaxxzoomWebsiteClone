@@ -1,0 +1,238 @@
+body {
+  margin: 0;
+  font-family: Montserrat;
+}
+
+.topBar {
+  background-color: rgb(62, 14, 107);
+  color: white;
+  padding: 0px 90px;
+  display: flex;
+  margin: 0px 100px;
+  align-items: center;
+  font-size: 18px;
+  justify-content: space-between;
+}
+#mobAddr {
+  display: flex;
+  margin-left: auto;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+#mobAddr p {
+  display: flex;
+  align-items: center;
+}
+
+#mobAddr i {
+  margin-right: 15px;
+}
+
+/* Navbar */
+.navContent {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 100px;
+  font-size: 20px;
+  /* padding: 10px 80px;  */
+}
+
+.logo img {
+  height: 70px;
+}
+
+.menu {
+  list-style-type: none;
+  display: flex;
+}
+
+.menu li {
+  margin-left: 0px;
+}
+
+.menu li a {
+  color: gray;
+  text-decoration: none;
+  padding: 0px 20px;
+  font-size: 15px;
+}
+
+#bgImage {
+  background-image: url("https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  mask-image: linear-gradient(black 40%, transparent 90%);
+  -webkit-mask-image: linear-gradient(90deg, black 40%, transparent 90%);
+  height: 600px;
+  width: 100%;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+#textContainer {
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  text-align: right;
+}
+
+#text1 {
+  color: black;
+  font-size: 60px;
+  margin: 0;
+}
+#text2 {
+  color: red;
+  font-size: 60px;
+  margin: 0;
+}
+#text3 {
+  text-align: right;
+}
+.btnReadmore {
+  width: 170px;
+  height: 50px;
+  color: white;
+  background-color: red;
+  border: 0px solid transparent;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: 700;
+  justify-content: center;
+}
+.btnReadmore:hover {
+  background-color: rgb(14, 141, 14);
+}
+.btnContact {
+  width: 170px;
+  height: 50px;
+  color: black;
+  background-color: white;
+  border: 0px solid transparent;
+  border-radius: 50px;
+  font-size: 13px;
+  font-weight: 700;
+  justify-content: center;
+}
+/* Big Menu */
+.bigMenu {
+  display: flex;
+  height: 130px;
+  margin: 0px 100px;
+}
+.bMText1 {
+  display: flex;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 100%;
+  justify-content: space-around;
+  font-weight: 700;
+  font-size: 20px;
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0.308);
+}
+.bMText1:hover {
+  background-color: rgb(255, 0, 0);
+  color: white;
+}
+.bMText1:active {
+  background-color: rgb(187, 0, 0);
+}
+.bMText1:focus {
+  background-color: rgb(187, 0, 0);
+}
+.no1 {
+  font-size: 25px;
+  border: 0px solid black;
+  padding: 10px 20px;
+  border-radius: 50px;
+  background-color: rgb(37, 146, 159);
+}
+
+/* panel */
+
+.panel1 {
+  background-color: rgb(243, 245, 250);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.cont1P1 {
+  /* background-color: aqua; */
+  width: 50%;
+}
+.titlePanel {
+  font-size: 30px;
+  font-weight: 500;
+  padding: 30px 0px 0px 200px;
+}
+.titlePara {
+  font-size: 20px;
+  padding: 10px 20px 10px 200px;
+  text-align: justify;
+}
+
+.btnPanel {
+  width: 170px;
+  height: 50px;
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 50px;
+  font-size: 15px;
+  font-weight: 500;
+  position: relative;
+  left: 200px;
+}
+.btnPanel:hover {
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+.cont2P1 {
+  /* background-color: bisque; */
+  width: 50%;
+  padding: 70px 0px 20px 30px;
+}
+.panelImage {
+  background-image: url("https://images.unsplash.com/photo-1625863615190-a795f160714b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  width: 700px;
+  height: 400px;
+  background-size: cover;
+  box-shadow: -15px 10px 5px rgba(0, 0, 0, 0.171);
+}
+.panel2 {
+  background-color: white;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+.cont1P2 {
+  background-color: aqua;
+  width: 50%;
+}
+.panel2Image {
+  background-image: url("https://images.pexels.com/photos/11035360/pexels-photo-11035360.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  width: 500px;
+  height: 350px;
+  background-size: cover;
+  margin: 30px 10px 0px 400px;
+}
+.titlePanel2 {
+  margin-left: 450px;
+  font-size: 30px;
+  font-weight: 500;
+}
+.titleParaP2 {
+  font-size: 20px;
+  padding: 10px 20px 10px 200px;
+  text-align: center;
+}
