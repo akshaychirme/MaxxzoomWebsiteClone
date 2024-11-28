@@ -24,9 +24,11 @@ Technology Stack:
 - CSS: Styles to ensure the website is visually appealing and responsive.
 - Font Awesome: For using icons like phone and location.
 - Google Fonts: Montserrat and Open Sans for typography.
-  
-![333](https://github.com/user-attachments/assets/6f3a5997-4cc6-4d45-8e57-fb55641409bc)
-![222](https://github.com/user-attachments/assets/fe2b6a3d-8864-44e8-b2fd-d4f2cd2614c9)
+
 ![111](https://github.com/user-attachments/assets/4fdb991e-12b7-418a-9961-9f5bed1cbbf9)
+![222](https://github.com/user-attachments/assets/fe2b6a3d-8864-44e8-b2fd-d4f2cd2614c9)
+![333](https://github.com/user-attachments/assets/6f3a5997-4cc6-4d45-8e57-fb55641409bc)
+
+
 
   
